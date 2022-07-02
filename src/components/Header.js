@@ -49,7 +49,17 @@ const Header = () => {
             </li>
             <li>
                 <Button>
+                    <a style={{color:'#ffffff', fontSize:'18px', textDecoration:'none'}} href='#artist'>Artists</a>
+                </Button>
+            </li>
+            <li>
+                <Button>
                     <a style={{color:'#ffffff', fontSize:'18px', textDecoration:'none'}} href='#brands'>Brands</a>
+                </Button>
+            </li>
+            <li>
+                <Button>
+                    <a style={{color:'#ffffff', fontSize:'18px', textDecoration:'none'}} href='#PNV'>Photo & Video</a>
                 </Button>
             </li>
         </ul>
