@@ -126,7 +126,7 @@ const HomePage = () => {
                         url="https://youtu.be/rWAR2Aw3ggI"
                         />
                 </li>
-                <li><h2 style={{fontFamily:'Montserrat', fontWeight:'300', display:'flex',justifyContent:'center'}}>POMMIE Launch Campaign</h2></li>
+                <li><h2 style={{fontFamily:'Montserrat', fontWeight:'300', display:'flex',justifyContent:'center'}}>YBAF Fashion Award 2021</h2></li>
             </ul>
             
         </div>

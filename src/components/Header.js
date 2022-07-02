@@ -49,7 +49,7 @@ const Header = () => {
             </li>
             <li>
                 <Button>
-                    <a style={{color:'#ffffff', fontSize:'18px', textDecoration:'none'}} href='#artist'>Artists</a>
+                    <a style={{color:'#ffffff', fontSize:'18px', textDecoration:'none'}} href='#artist'>Artist</a>
                 </Button>
             </li>
             <li>
