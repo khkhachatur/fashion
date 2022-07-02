@@ -38,7 +38,7 @@ const HomePage = () => {
       }}>
           <div style={{display:'flex', justifyContent:'center', padding:'40px 0 60px 0'}}>
             <Button>
-                <a id='aboutUs' style={{color:'black', fontSize:'24px', textDecoration:'none'}} href='#'>About us</a>
+                <a id='aboutUs' style={{color:'black', fontSize:'24px', textDecoration:'none'}} href='#aboutUs'>About us</a>
             </Button>
           </div>
         <ul style={{
