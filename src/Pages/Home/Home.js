@@ -28,27 +28,27 @@ const HomePage = () => {
             listStyleType:'none',
             display:'flex',
             flexDirection:'column',
-            gap:'20px',
+            gap:'40px',
             margin:'0',
             fontFamily:'Montserrat',
             fontSize:'18px',
             fontWeight:"100",
             padding:'0'
         }}>
-            <li> 
-                <strong>Information about 374 Collective: </strong> 374 Collective is a PR and brand strategy consultancy dedicated to expanding Armenia's visibility on a global scale through the cultivation and promotion of creatives, brands, and businesses within a multitude of industries. Ranging from fashion, art, music, hospitality, tourism, and more with an aim to amplify the modern culture of Armenia through digital marketing, strategic partnerships, and media relations.
-            </li>
-            <li><strong>Information about POMMIE: </strong> Pommie, the premier destination for high-end Armenian designers is introducing the “Made in Armenia” label to the US market. The first of its kind, the boutique luxury retailer offers an exclusively curated collection of highly coveted pieces by leading and emerging designers from the highlands.</li>
-            <li><strong>Information about YBAF: </strong> YBAF (Yerevan Biennial Art Foundation) is dedicated to building a 
+            <li><strong>YBAF: </strong> YBAF (Yerevan Biennial Art Foundation) is dedicated to building a 
                         sustainable creative ecosystem elevating the visibility of Armenian culture. Our projects are aimed at interconnecting the realms of the arts, culture, and education. One of our primary goals is to support local Armenian artists. We place a strong emphasis on implementing formal and informal education that 
                         will modernize Armenia’s art scene. Our work is addressed towards spotlighting the various stages, 
                         aesthetics, and forms of Armenian culture, showing its diversity and 
                         connection to the world. The Foundation has been established to develop and execute initiatives 
                         all year round, among them the Yerevan Biennial. This platform exists for public engagement and operates locally, nationally, and internationally.</li>
+            <li> 
+                <strong>374 Collective: </strong> 374 Collective is a PR and brand strategy consultancy dedicated to expanding Armenia's visibility on a global scale through the cultivation and promotion of creatives, brands, and businesses within a multitude of industries. Ranging from fashion, art, music, hospitality, tourism, and more with an aim to amplify the modern culture of Armenia through digital marketing, strategic partnerships, and media relations.
+            </li>
+            <li><strong>POMMIE: </strong> Pommie, the premier destination for high-end Armenian designers is introducing the “Made in Armenia” label to the US market. The first of its kind, the boutique luxury retailer offers an exclusively curated collection of highly coveted pieces by leading and emerging designers from the highlands.</li>
         </ul>
         
         <h2 id='artist' style={{fontFamily:'Montserrat', display:'flex', justifyContent:'center', padding:'20px'}}>About the Artist</h2>
-        <ul style={{display:'flex', flexDirection:'column', fontFamily:'Montserrat', fontSize:'18px', fontWeight:'100', gap:'20px', listStyleType:'none', padding:'0'}}>
+        <ul style={{display:'flex', flexDirection:'column', fontFamily:'Montserrat', fontSize:'18px', fontWeight:'100', gap:'40px', listStyleType:'none', padding:'0'}}>
             <li>Adam Adamyan is a contemporary Armenian artist, who became famous for 
                 his street art, that can be found in almost every corner of central 
                 Yerevan. The images in his drawings are incredibly expressive and 
@@ -63,7 +63,7 @@ const HomePage = () => {
             </li>
         </ul>
 
-        <h2 id='brands' style={{fontFamily:'Montserrat', display:'flex', justifyContent:'center', padding:'20px'}}>Brands and Collections</h2>
+        <h2 id='brands' style={{fontFamily:'Montserrat', display:'flex', justifyContent:'center', padding:'40px'}}>Brands and Collections</h2>
         <ul style={{listStyleType:'none', padding:'0', display:'flex', flexDirection:'column', gap:'50px'}}>
             <li style={{border:'none'}}>
                 <Brand
@@ -110,7 +110,7 @@ const HomePage = () => {
                 />
             </li>
         </ul>
-        <h2 id='PNV' style={{fontFamily:'Montserrat', display:'flex', justifyContent:'center', padding:'20px'}}>Photo & Video</h2>
+        <h2 id='PNV' style={{fontFamily:'Montserrat', display:'flex', justifyContent:'center', padding:'40px'}}>Photo & Video</h2>
         <div style={{display:'flex', flexDirection:'column', padding:'40px 0'}}>
             <ul style={{padding:'0', listStyleType:'none'}}>
                 <li style={{display:'flex', justifyContent:"center"}}>
