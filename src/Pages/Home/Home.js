@@ -1,24 +1,10 @@
 import React from 'react';
 
-import styled from 'styled-components';
 import ReactPlayer from 'react-player';
 
 import Brand from '../../components/Brand';
 
 const HomePage = () => {
-
-    const Button =styled.button`
-        background:none;
-        cursor: pointer;
-        border:none;
-        border-bottom: 1px solid #000000;
-        border-radius:20px;
-        transition: all 0.3s;
-        &:hover {
-            transform: scale(1.01);
-            opacity: 0.7;
-    }
-    `
 
   return (
     <div style={{
